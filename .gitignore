@@ -1,0 +1,27 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.streamlit/secrets.toml
+data/cache/
+data/users/
+data/events.jsonl
+data/ranker_weights.json
+data/eval_report.json
+data/clean_report.json
+*.egg-info/
+dist/
+build/
+
+data/catalog.json
+
+# Vendor skill dumps — not part of the app
+skills-main/
+taste-skill-main/
+ui-ux-pro-max-skill-main/
+.claude/
+__pycache__/

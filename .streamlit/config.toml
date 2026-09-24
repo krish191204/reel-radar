@@ -1,0 +1,16 @@
+[theme]
+base = "light"
+primaryColor = "#D63838"
+backgroundColor = "#F2EFE8"
+secondaryBackgroundColor = "#E8E2D5"
+textColor = "#1A1A1A"
+font = "sans serif"
+
+[server]
+headless = true
+# Hide the auto-generated page nav inside the sidebar — we render our own top nav.
+[client]
+showSidebarNavigation = false
+
+[browser]
+gatherUsageStats = false
